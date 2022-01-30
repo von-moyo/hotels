@@ -458,7 +458,6 @@ body
     font-size: 26px;
     color: #4f4f4f;
     font-weight: 700;
-    margin-top: 120px;
 }
 .box2headp
 {
@@ -478,25 +477,22 @@ body
 .box2row
 {
     display: flex;
-    padding: 0 20px;
+    justify-content: center;
     text-align: center;
-    margin-left: -15px;
-    margin-right: -15px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 100px;
+    border: 1px solid;
+    width: 100%;
 }
 .bbox
 {
     transition: .3s ease-out;
-    margin-top: 20px;
     border: 2px solid #00aeff;
     border-radius: 4px;
     display: flex;
     color: #00aeff;
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
 
 .bbox:hover
@@ -509,11 +505,11 @@ body
 {
     padding-right: 10px;
     padding-left: 10px;
-    width: 17%;
+    width: 10%;
 }
 .rowbox1name
 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;   
     margin-bottom: 10px;
     line-height: 1.1;
