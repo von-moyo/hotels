@@ -508,7 +508,7 @@ body
 }
 .rowbox1name
 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;   
     margin-bottom: 10px;
     line-height: 1.1;
@@ -518,7 +518,7 @@ body
 }
 .rowbox1desc
 {
-    font-size: 1.9rem;
+    font-size: 17px;
     margin: 0 0 10px;
     color: #657279;
     font-weight: 300;
@@ -820,6 +820,7 @@ b
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 #box6head
 {
@@ -833,13 +834,13 @@ b
 {
     margin: 40px atuto 100px auto;
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
 }
 .img 
 {
     height: 35px;
-    width: 12%;
+    width: 5%;
 }
 #img6
 {
@@ -847,7 +848,7 @@ b
 }
 #img61
 {
-    width: 12%;
+    width: 4.5%;
 }
 #imgwebafrica
 {
@@ -1097,6 +1098,25 @@ b
     height: 50px;
 }
 
+.box13
+{
+    width: 100%;
+    background-color: #084482;
+    margin-bottom: 0;
+    padding: 25px 0;
+}
+
+.listt
+{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
 @media (min-width: 1441px) 
 {
     body 
@@ -1166,7 +1186,7 @@ b
     .searchbarbutton
     {
         margin-right: 6%;
-        padding: 6px 35px;
+        padding: 6px 35px;]
     }
 
     .card
@@ -1460,23 +1480,6 @@ b
     .box12
     {
         display: none;
-    }
-    .box13
-    {
-        width: 100%;
-        background-color: #084482;
-        margin-bottom: 0;
-        padding: 25px 0;
-    }
-    .listt
-    {
-        font-size: 15px;
-        color: #fff;
-        font-weight: 700;
-        text-align: center;
-        line-height: 1.4;
-        cursor: pointer;
-        margin: 30px 0;
     }
 }
 
